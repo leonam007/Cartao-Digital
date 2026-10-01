@@ -14,7 +14,7 @@ export default function App() {
 
   function mostrarAviso(texto) {
     setAviso(texto);
-    setTimeout(() => setAviso(''), 3000);
+    setTimeout(() => setAviso(''), 5000);
   }
 
   useEffect(() => {
