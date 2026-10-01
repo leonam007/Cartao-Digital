@@ -30,7 +30,7 @@ export default function App() {
 
   function salvarBio() {
     setModalAberto(false);
-    mostrarAviso('Bio atualizada! ✅');
+    mostrarAviso('Bio atualizada!');
   }
 
   function salvarDados() {
